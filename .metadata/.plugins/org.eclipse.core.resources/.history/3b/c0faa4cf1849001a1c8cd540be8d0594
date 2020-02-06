@@ -17,7 +17,7 @@ public class assignment1 {
 		 web.click();
 		 System.out.println(web.isSelected());
 
-		 //System.out.println(driver.findElements(By.cssSelector("input[type='checkbox']")).size());
+		 System.out.println(driver.findElements(By.cssSelector("input[type='checkbox']")).size());
 	}
 
 }
