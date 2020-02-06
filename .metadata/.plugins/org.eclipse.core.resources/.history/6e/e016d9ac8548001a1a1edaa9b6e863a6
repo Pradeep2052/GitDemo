@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class AK2 {
+
+	public static void main(String[] args) {
+	
+		Scanner ab= new Scanner(System.in);// TODO Auto-generated method stub
+		int num1;
+		int num2;
+
+		System.out.print("Enter the first number:");
+		num1= ab.nextInt();
+
+	   System.out.print("Enter the second number:");
+		num2= ab.nextInt();
+
+		System.out.println(num1 + "/" +num2 +"=" +num1/num2);
+
+	}
+
+}
+

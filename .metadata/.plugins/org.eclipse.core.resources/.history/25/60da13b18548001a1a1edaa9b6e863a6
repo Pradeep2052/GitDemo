@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class AK3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x,y,z;
+
+		Scanner sc= new Scanner(System.in);
+		System.out.print("enter the grade 1:");
+		x=sc.nextInt();
+		System.out.print("enter the grade 2:");
+		y=sc.nextInt();
+		System.out.print("enter the grade 3:");
+		z=sc.nextInt();
+
+		System.out.println(" The average of grades is: " +(double)(x+y+z)/3);
+		System.out.println( "The value X is "+x+" , value y is "+y+" and value z  is "+z+" "
+				+ "so the minimum value is :  "+Math.min(Math.min(x,y),z));
+		System.out.println("Bye");
+		}
+}
+

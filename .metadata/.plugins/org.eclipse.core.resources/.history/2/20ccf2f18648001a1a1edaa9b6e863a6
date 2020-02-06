@@ -1,0 +1,20 @@
+import java.util.*;
+public class AK_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+Scanner sc= new Scanner(System.in);
+String data= new String();
+
+data= data= sc.nextLine();
+
+String[]animals= data.split("data", 0);
+for (String a: animals)
+
+System.out.println(a);
+System.out.println("The tiny %s asked the %s to go check on the restless %s.\n", animals[1],animals[2], animals[0]);
+System.out.print("Bye");
+	} 
+}
+
